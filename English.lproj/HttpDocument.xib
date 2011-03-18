@@ -936,14 +936,6 @@
 					<int key="connectionID">100041</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">addressField</string>
-						<reference key="source" ref="512844837"/>
-						<reference key="destination" ref="283321342"/>
-					</object>
-					<int key="connectionID">100043</int>
-				</object>
-				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
 						<string key="label">contentArray: self.historyItems</string>
 						<reference key="source" ref="266087725"/>
@@ -1092,6 +1084,46 @@
 						</object>
 					</object>
 					<int key="connectionID">100272</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">hostField</string>
+						<reference key="source" ref="512844837"/>
+						<reference key="destination" ref="283321342"/>
+					</object>
+					<int key="connectionID">100274</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">pathField</string>
+						<reference key="source" ref="512844837"/>
+						<reference key="destination" ref="752578394"/>
+					</object>
+					<int key="connectionID">100275</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">contentTypeField</string>
+						<reference key="source" ref="512844837"/>
+						<reference key="destination" ref="179331402"/>
+					</object>
+					<int key="connectionID">100276</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">bodyField</string>
+						<reference key="source" ref="512844837"/>
+						<reference key="destination" ref="869953565"/>
+					</object>
+					<int key="connectionID">100277</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">respField</string>
+						<reference key="source" ref="512844837"/>
+						<reference key="destination" ref="350831891"/>
+					</object>
+					<int key="connectionID">100278</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -1596,7 +1628,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">100272</int>
+			<int key="maxID">100278</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -1615,18 +1647,28 @@
 						</object>
 					</object>
 					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="addressField">NSTextField</string>
 						<string key="bodyField">NSTextView</string>
+						<string key="contentTypeField">NSTextField</string>
+						<string key="hostField">NSTextField</string>
+						<string key="pathField">NSTextField</string>
 						<string key="respField">NSTextView</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="addressField">
-							<string key="name">addressField</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
 						<object class="IBToOneOutletInfo" key="bodyField">
 							<string key="name">bodyField</string>
 							<string key="candidateClassName">NSTextView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="contentTypeField">
+							<string key="name">contentTypeField</string>
+							<string key="candidateClassName">NSTextField</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="hostField">
+							<string key="name">hostField</string>
+							<string key="candidateClassName">NSTextField</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="pathField">
+							<string key="name">pathField</string>
+							<string key="candidateClassName">NSTextField</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="respField">
 							<string key="name">respField</string>

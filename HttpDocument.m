@@ -20,7 +20,7 @@
 #define BODY_KEY @"body"
 #define RESPONSE_BODY_KEY @"response_body"
 
-@synthesize addressField, bodyField, respField;
+@synthesize hostField, pathField, contentTypeField, bodyField, respField;
 
 @synthesize historyItems;
 @synthesize selectedHistoryItem;
@@ -64,7 +64,7 @@
 - (IBAction) sendButtonPushed:(id)sender {
 	[respField setString:@""];
 	
-	NSURL *url = [NSURL URLWithString:[addressField stringValue]];
+	NSURL *url = [NSURL URLWithString:[hostField stringValue]];
 	NSString *body = [bodyField string];
 	body = [body stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
 	NSData *data = [body dataUsingEncoding:NSUTF8StringEncoding];
