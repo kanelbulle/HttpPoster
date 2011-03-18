@@ -1,0 +1,410 @@
+THttpPoster
+v7
+r0
+t321466125.174727
+cCheck dependencies
+cProcessInfoPlistFile /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/Info.plist HttpPoster-Info.plist
+cCpResource build/Release/HttpPoster.app/Contents/Resources/English.lproj/Credits.rtf English.lproj/Credits.rtf
+cCopyStringsFile /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/English.lproj/MyDocument.xib
+cCompileXIB /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/ME/MEupGMipFyWmKTFij4dmik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HttpPoster_Prefix-cpccuwjgngcxyienhwlyjtjancgn/HttpPoster_Prefix.pch.gch HttpPoster_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/ME/MEupGMipFyWmKTFij4dmik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HttpPoster_Prefix-eertkiqqzxxuzfbzgirqcwlmegtr/HttpPoster_Prefix.pch.gch HttpPoster_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/ME/MEupGMipFyWmKTFij4dmik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HttpPoster_Prefix-ajxmbjfcbmcdgdgmkalaarbipjma/HttpPoster_Prefix.pch.gch HttpPoster_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/x86_64/MyDocument.o /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/MyDocument.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/x86_64/main.o /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/x86_64/HttpPoster normal x86_64
+cCompileC build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/i386/MyDocument.o /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/MyDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/i386/main.o /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/i386/HttpPoster normal i386
+cCompileC build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/ppc/MyDocument.o /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/MyDocument.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/ppc/main.o /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cLd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/ppc/HttpPoster normal ppc
+cCreateUniversalBinary /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/MacOS/HttpPoster normal "x86_64 i386 ppc"
+cGenerateDSYMFile /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app.dSYM /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/MacOS/HttpPoster
+cTouch /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/English.lproj/Credits.rtf
+c000000004D4DB5ED00000000000001B4
+t1296938477
+s436
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/English.lproj/InfoPlist.strings
+c000000004D4DB5ED000000000000002D
+t1296938477
+s45
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/English.lproj/MainMenu.xib
+c000000004D4DB5ED000000000002ADE8
+t1296938477
+s175592
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/English.lproj/MyDocument.xib
+c000000004D78EFEA000000000000FB82
+t1299771370
+s64386
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/HttpPoster_Prefix.pch
+c000000004D4DB5ED0000000000000097
+t1296938477
+s151
+i<Cocoa/Cocoa.h>
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/MyDocument.h
+c000000004D517D4A0000000000000218
+t1297186122
+s536
+i<Cocoa/Cocoa.h>
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/MyDocument.m
+c000000004D78F7760000000000000EF2
+t1299773302
+s3826
+i"MyDocument.h"
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/i386/HttpPoster
+t1299773303
+s19428
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/i386/HttpPoster.LinkFileList
+c000000004D78EF830000000000000100
+t1299771267
+s256
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/i386/MyDocument.o
+t1299773303
+s24424
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/i386/main.o
+t1299771270
+s4864
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/ppc/HttpPoster
+t1299773303
+s19152
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/ppc/HttpPoster.LinkFileList
+c000000004D78EF8300000000000000FE
+t1299771267
+s254
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/ppc/MyDocument.o
+t1299773303
+s25200
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/ppc/main.o
+t1299771270
+s4896
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/x86_64/HttpPoster
+t1299773303
+s16624
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/x86_64/HttpPoster.LinkFileList
+c000000004D78EF830000000000000104
+t1299771267
+s260
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/x86_64/MyDocument.o
+t1299773303
+s30900
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/x86_64/main.o
+t1299771270
+s5064
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app
+t2
+s0
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app.dSYM
+t1299773303
+s102
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/Info.plist
+t2
+s0
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/MacOS/HttpPoster
+t2
+s0
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/Resources/English.lproj/Credits.rtf
+t2
+s0
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/Resources/English.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/Resources/English.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/Resources/English.lproj/MyDocument.nib
+t2
+s0
+
+N/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/main.m
+c000000004D4DB5ED000000000000010D
+t1296938477
+s269
+i<Cocoa/Cocoa.h>
+
+N/var/folders/ME/MEupGMipFyWmKTFij4dmik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HttpPoster_Prefix-ajxmbjfcbmcdgdgmkalaarbipjma/HttpPoster_Prefix.pch.gch
+t1299771270
+s52823632
+
+N/var/folders/ME/MEupGMipFyWmKTFij4dmik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HttpPoster_Prefix-cpccuwjgngcxyienhwlyjtjancgn/HttpPoster_Prefix.pch.gch
+t1299771270
+s52958992
+
+N/var/folders/ME/MEupGMipFyWmKTFij4dmik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HttpPoster_Prefix-eertkiqqzxxuzfbzgirqcwlmegtr/HttpPoster_Prefix.pch.gch
+t1299771270
+s55592752
+
+NHttpPoster-Info.plist
+c000000004D4DB5ED00000000000005CA
+t1296938477
+s1482
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321466125#321466125#0(0"0(0#1#0"8610852800#0"0#
+
+CCompileC build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/i386/MyDocument.o /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/MyDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321466103.206019
+e321466103.381488
+r1
+xCompileC
+xbuild/HttpPoster.build/Release/HttpPoster.build/Objects-normal/i386/MyDocument.o
+x/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/MyDocument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/MyDocument.m321466103#321466103#0(0"0(0#0#62"/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/MyDocument.m8618006112#1673"    cd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-generated-files.hmap -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-own-target-headers.hmap -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-all-target-headers.hmap -iquote /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-project-headers.hmap -F/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/include -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/DerivedSources/i386 -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/DerivedSources -include /var/folders/ME/MEupGMipFyWmKTFij4dmik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HttpPoster_Prefix-eertkiqqzxxuzfbzgirqcwlmegtr/HttpPoster_Prefix.pch -c /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/MyDocument.m -o /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/i386/MyDocument.o0#
+
+CCompileC build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/i386/main.o /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321464070.212476
+e321464070.358014
+r1
+xCompileC
+xbuild/HttpPoster.build/Release/HttpPoster.build/Objects-normal/i386/main.o
+x/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/main.m321464070#321464070#0(0"0(0#0#56"/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/main.m8614186336#1661"    cd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-generated-files.hmap -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-own-target-headers.hmap -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-all-target-headers.hmap -iquote /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-project-headers.hmap -F/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/include -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/DerivedSources/i386 -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/DerivedSources -include /var/folders/ME/MEupGMipFyWmKTFij4dmik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HttpPoster_Prefix-eertkiqqzxxuzfbzgirqcwlmegtr/HttpPoster_Prefix.pch -c /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/main.m -o /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/i386/main.o0#
+
+CCompileC build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/ppc/MyDocument.o /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/MyDocument.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s321466103.206803
+e321466103.381760
+r1
+xCompileC
+xbuild/HttpPoster.build/Release/HttpPoster.build/Objects-normal/ppc/MyDocument.o
+x/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/MyDocument.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/MyDocument.m321466103#321466103#0(0"0(0#0#62"/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/MyDocument.m8603520704#1680"    cd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-generated-files.hmap -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-own-target-headers.hmap -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-all-target-headers.hmap -iquote /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-project-headers.hmap -F/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/include -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/DerivedSources/ppc -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/DerivedSources -include /var/folders/ME/MEupGMipFyWmKTFij4dmik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HttpPoster_Prefix-ajxmbjfcbmcdgdgmkalaarbipjma/HttpPoster_Prefix.pch -c /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/MyDocument.m -o /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/ppc/MyDocument.o0#
+
+CCompileC build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/ppc/main.o /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s321464070.214171
+e321464070.365381
+r1
+xCompileC
+xbuild/HttpPoster.build/Release/HttpPoster.build/Objects-normal/ppc/main.o
+x/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/main.m321464070#321464070#0(0"0(0#0#56"/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/main.m8613520928#1668"    cd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-generated-files.hmap -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-own-target-headers.hmap -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-all-target-headers.hmap -iquote /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-project-headers.hmap -F/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/include -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/DerivedSources/ppc -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/DerivedSources -include /var/folders/ME/MEupGMipFyWmKTFij4dmik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HttpPoster_Prefix-ajxmbjfcbmcdgdgmkalaarbipjma/HttpPoster_Prefix.pch -c /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/main.m -o /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/ppc/main.o0#
+
+CCompileC build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/x86_64/MyDocument.o /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/MyDocument.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s321466103.061351
+e321466103.386202
+r1
+xCompileC
+xbuild/HttpPoster.build/Release/HttpPoster.build/Objects-normal/x86_64/MyDocument.o
+x/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/MyDocument.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/MyDocument.m321466103#321466103#0(0"0(0#0#62"/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/MyDocument.m8612905568#1679"    cd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-generated-files.hmap -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-own-target-headers.hmap -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-all-target-headers.hmap -iquote /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-project-headers.hmap -F/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/include -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/DerivedSources/x86_64 -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/DerivedSources -include /var/folders/ME/MEupGMipFyWmKTFij4dmik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HttpPoster_Prefix-cpccuwjgngcxyienhwlyjtjancgn/HttpPoster_Prefix.pch -c /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/MyDocument.m -o /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/x86_64/MyDocument.o0#
+
+CCompileC build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/x86_64/main.o /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s321464070.211126
+e321464070.357600
+r1
+xCompileC
+xbuild/HttpPoster.build/Release/HttpPoster.build/Objects-normal/x86_64/main.o
+x/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/main.m321464070#321464070#0(0"0(0#0#56"/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/main.m8615164928#1667"    cd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-generated-files.hmap -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-own-target-headers.hmap -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-all-target-headers.hmap -iquote /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-project-headers.hmap -F/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/include -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/DerivedSources/x86_64 -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/DerivedSources -include /var/folders/ME/MEupGMipFyWmKTFij4dmik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HttpPoster_Prefix-cpccuwjgngcxyienhwlyjtjancgn/HttpPoster_Prefix.pch -c /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/main.m -o /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/English.lproj/MainMenu.xib
+s321466102.796209
+e321466103.060740
+r1
+xCompileXIB
+x/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib321466102#321466103#0(0"0(0#0#76"/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/English.lproj/MainMenu.xib8619192736#402"    cd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/Resources/English.lproj/MainMenu.nib /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/English.lproj/MyDocument.xib
+s321466102.792850
+e321466103.047838
+r1
+xCompileXIB
+x/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/English.lproj/MyDocument.xib
+lSLF07#2@39"CompileXIB English.lproj/MyDocument.xib321466102#321466103#0(0"0(0#0#78"/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/English.lproj/MyDocument.xib8618315968#406"    cd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/Resources/English.lproj/MyDocument.nib /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/English.lproj/MyDocument.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s321466102.792184
+e321466103.024723
+r1
+xCopyStringsFile
+x/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings321466102#321466103#0(0"0(0#0#81"/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/English.lproj/InfoPlist.strings8618461184#392"    cd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Release/HttpPoster.app/Contents/Resources/English.lproj/Credits.rtf English.lproj/Credits.rtf
+s321466102.791454
+e321466102.797174
+r1
+xCpResource
+xbuild/Release/HttpPoster.app/Contents/Resources/English.lproj/Credits.rtf
+xEnglish.lproj/Credits.rtf
+lSLF07#2@30"Copy English.lproj/Credits.rtf321466102#321466102#0(0"0(0#0#75"/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/English.lproj/Credits.rtf8618475968#428"    cd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/English.lproj/Credits.rtf /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/Resources/English.lproj0#
+
+CCreateUniversalBinary /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/MacOS/HttpPoster normal "x86_64 i386 ppc"
+s321466103.418937
+e321466103.422184
+r1
+xCreateUniversalBinary
+x/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/MacOS/HttpPoster
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@101"CreateUniversalBinary build/Release/HttpPoster.app/Contents/MacOS/HttpPoster normal "x86_64 i386 ppc"321466103#321466103#0(0"0(0#0#65"/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/x86_64 i386 ppc8618307360#584"    cd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster    /usr/bin/lipo -create /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/x86_64/HttpPoster /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/i386/HttpPoster /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/ppc/HttpPoster -output /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/MacOS/HttpPoster0#
+
+CGenerateDSYMFile /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app.dSYM /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/MacOS/HttpPoster
+s321466103.422285
+e321466103.437179
+r1
+xGenerateDSYMFile
+x/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app.dSYM
+x/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/MacOS/HttpPoster
+lSLF07#2@105"GenerateDSYMFile build/Release/HttpPoster.app.dSYM build/Release/HttpPoster.app/Contents/MacOS/HttpPoster321466103#321466103#0(0"0(0#0#104"/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/MacOS/HttpPoster8612899104#281"    cd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster    /Developer/usr/bin/dsymutil /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/MacOS/HttpPoster -o /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app.dSYM0#
+
+CLd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/i386/HttpPoster normal i386
+s321466103.381853
+e321466103.418102
+r1
+xLd
+x/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/i386/HttpPoster
+xnormal
+xi386
+lSLF07#2@133"Link /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/i386/HttpPoster321466103#321466103#0(0"0(0#0#0"8619167520#640"    cd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release -F/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release -filelist /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/i386/HttpPoster.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/i386/HttpPoster0#
+
+CLd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/ppc/HttpPoster normal ppc
+s321466103.383303
+e321466103.417221
+r1
+xLd
+x/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/ppc/HttpPoster
+xnormal
+xppc
+lSLF07#2@132"Link /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/ppc/HttpPoster321466103#321466103#0(0"0(0#0#0"8619027488#637"    cd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release -F/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release -filelist /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/ppc/HttpPoster.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/ppc/HttpPoster0#
+
+CLd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/x86_64/HttpPoster normal x86_64
+s321466103.386308
+e321466103.418873
+r1
+xLd
+x/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/x86_64/HttpPoster
+xnormal
+xx86_64
+lSLF07#2@135"Link /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/x86_64/HttpPoster321466103#321466103#0(0"0(0#0#0"8618793760#646"    cd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release -F/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release -filelist /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/x86_64/HttpPoster.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/Objects-normal/x86_64/HttpPoster0#
+
+CProcessInfoPlistFile /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/Info.plist HttpPoster-Info.plist
+s321466102.785747
+e321466102.791380
+r1
+xProcessInfoPlistFile
+x/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/Info.plist
+xHttpPoster-Info.plist
+lSLF07#2@29"Process HttpPoster-Info.plist321466102#321466102#0(0"0(0#0#71"/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/HttpPoster-Info.plist28429466575372388#356"    cd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster    builtin-infoPlistUtility HttpPoster-Info.plist -genpkginfo /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/ME/MEupGMipFyWmKTFij4dmik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HttpPoster_Prefix-ajxmbjfcbmcdgdgmkalaarbipjma/HttpPoster_Prefix.pch.gch HttpPoster_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s321464067.708991
+e321464070.174514
+r1
+xProcessPCH
+x/var/folders/ME/MEupGMipFyWmKTFij4dmik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HttpPoster_Prefix-ajxmbjfcbmcdgdgmkalaarbipjma/HttpPoster_Prefix.pch.gch
+xHttpPoster_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile HttpPoster_Prefix.pch321464067#321464070#0(0"0(0#0#71"/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/HttpPoster_Prefix.pch8590188032#1561"    cd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-generated-files.hmap -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-own-target-headers.hmap -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-all-target-headers.hmap -iquote /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-project-headers.hmap -F/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/include -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/DerivedSources/ppc -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/DerivedSources -c /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/HttpPoster_Prefix.pch -o /var/folders/ME/MEupGMipFyWmKTFij4dmik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HttpPoster_Prefix-ajxmbjfcbmcdgdgmkalaarbipjma/HttpPoster_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/ME/MEupGMipFyWmKTFij4dmik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HttpPoster_Prefix-cpccuwjgngcxyienhwlyjtjancgn/HttpPoster_Prefix.pch.gch HttpPoster_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s321464067.706729
+e321464070.118266
+r1
+xProcessPCH
+x/var/folders/ME/MEupGMipFyWmKTFij4dmik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HttpPoster_Prefix-cpccuwjgngcxyienhwlyjtjancgn/HttpPoster_Prefix.pch.gch
+xHttpPoster_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile HttpPoster_Prefix.pch321464067#321464070#0(0"0(0#0#71"/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/HttpPoster_Prefix.pch8611929920#1557"    cd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-generated-files.hmap -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-own-target-headers.hmap -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-all-target-headers.hmap -iquote /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-project-headers.hmap -F/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/include -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/DerivedSources/x86_64 -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/DerivedSources -c /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/HttpPoster_Prefix.pch -o /var/folders/ME/MEupGMipFyWmKTFij4dmik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HttpPoster_Prefix-cpccuwjgngcxyienhwlyjtjancgn/HttpPoster_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/ME/MEupGMipFyWmKTFij4dmik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HttpPoster_Prefix-eertkiqqzxxuzfbzgirqcwlmegtr/HttpPoster_Prefix.pch.gch HttpPoster_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s321464067.707998
+e321464070.210254
+r1
+xProcessPCH
+x/var/folders/ME/MEupGMipFyWmKTFij4dmik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HttpPoster_Prefix-eertkiqqzxxuzfbzgirqcwlmegtr/HttpPoster_Prefix.pch.gch
+xHttpPoster_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile HttpPoster_Prefix.pch321464067#321464070#0(0"0(0#0#71"/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/HttpPoster_Prefix.pch8613441408#1553"    cd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-generated-files.hmap -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-own-target-headers.hmap -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-all-target-headers.hmap -iquote /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/HttpPoster-project-headers.hmap -F/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/include -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/DerivedSources/i386 -I/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/HttpPoster.build/Release/HttpPoster.build/DerivedSources -c /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/HttpPoster_Prefix.pch -o /var/folders/ME/MEupGMipFyWmKTFij4dmik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HttpPoster_Prefix-eertkiqqzxxuzfbzgirqcwlmegtr/HttpPoster_Prefix.pch.gch0#
+
+CTouch /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app
+s321466103.437282
+e321466103.440337
+r1
+xTouch
+x/Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app
+lSLF07#2@84"Touch /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app321466103#321466103#0(0"0(0#0#0"8606845472#158"    cd /Users/emil/Dropbox/Developer/appr/mac/HttpPoster    /usr/bin/touch -c /Users/emil/Dropbox/Developer/appr/mac/HttpPoster/build/Release/HttpPoster.app0#
+
