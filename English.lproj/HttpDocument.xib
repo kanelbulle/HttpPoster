@@ -346,7 +346,7 @@
 											<string key="NSFrame">{{18, 343}, {349, 22}}</string>
 											<reference key="NSSuperview" ref="57898645"/>
 											<reference key="NSWindow"/>
-											<reference key="NSNextKeyView"/>
+											<reference key="NSNextKeyView" ref="280724209"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSTextFieldCell" key="NSCell" id="595075998">
@@ -439,9 +439,10 @@
 																				<string>WebURLsWithTitlesPboardType</string>
 																				<string>public.url</string>
 																			</set>
-																			<string key="NSFrameSize">{332, 100}</string>
+																			<string key="NSFrame">{{0, 63}, {332, 37}}</string>
 																			<reference key="NSSuperview" ref="655596344"/>
 																			<reference key="NSWindow"/>
+																			<reference key="NSNextKeyView" ref="724960502"/>
 																			<int key="NSViewLayerContentsRedrawPolicy">2</int>
 																			<object class="NSTextContainer" key="NSTextContainer" id="888296627">
 																				<object class="NSLayoutManager" key="NSLayoutManager">
@@ -522,6 +523,7 @@
 																	<string key="NSFrame">{{333, 1}, {15, 153}}</string>
 																	<reference key="NSSuperview" ref="966263715"/>
 																	<reference key="NSWindow"/>
+																	<reference key="NSNextKeyView" ref="951420370"/>
 																	<int key="NSViewLayerContentsRedrawPolicy">2</int>
 																	<reference key="NSTarget" ref="966263715"/>
 																	<string key="NSAction">_doScroller:</string>
@@ -534,6 +536,7 @@
 																	<string key="NSFrame">{{-100, -100}, {87, 18}}</string>
 																	<reference key="NSSuperview" ref="966263715"/>
 																	<reference key="NSWindow"/>
+																	<reference key="NSNextKeyView" ref="655596344"/>
 																	<int key="NSViewLayerContentsRedrawPolicy">2</int>
 																	<int key="NSsFlags">1</int>
 																	<reference key="NSTarget" ref="966263715"/>
@@ -545,7 +548,7 @@
 															<string key="NSFrame">{{0, -6}, {349, 155}}</string>
 															<reference key="NSSuperview" ref="135288337"/>
 															<reference key="NSWindow"/>
-															<reference key="NSNextKeyView" ref="655596344"/>
+															<reference key="NSNextKeyView" ref="371606036"/>
 															<int key="NSViewLayerContentsRedrawPolicy">2</int>
 															<int key="NSsFlags">18</int>
 															<reference key="NSVScroller" ref="724960502"/>
@@ -556,6 +559,7 @@
 													<string key="NSFrameSize">{349, 149}</string>
 													<reference key="NSSuperview" ref="280724209"/>
 													<reference key="NSWindow"/>
+													<reference key="NSNextKeyView" ref="966263715"/>
 													<int key="NSViewLayerContentsRedrawPolicy">2</int>
 													<string key="NSClassName">NSView</string>
 												</object>
@@ -596,6 +600,7 @@
 																			<string key="NSFrameSize">{332, 94}</string>
 																			<reference key="NSSuperview" ref="245516471"/>
 																			<reference key="NSWindow"/>
+																			<reference key="NSNextKeyView" ref="621998011"/>
 																			<int key="NSViewLayerContentsRedrawPolicy">2</int>
 																			<object class="NSTextContainer" key="NSTextContainer" id="184981900">
 																				<object class="NSLayoutManager" key="NSLayoutManager">
@@ -654,6 +659,7 @@
 																	<string key="NSFrame">{{333, 1}, {15, 161}}</string>
 																	<reference key="NSSuperview" ref="1050324210"/>
 																	<reference key="NSWindow"/>
+																	<reference key="NSNextKeyView" ref="536902847"/>
 																	<int key="NSViewLayerContentsRedrawPolicy">2</int>
 																	<reference key="NSTarget" ref="1050324210"/>
 																	<string key="NSAction">_doScroller:</string>
@@ -666,6 +672,7 @@
 																	<string key="NSFrame">{{-100, -100}, {87, 18}}</string>
 																	<reference key="NSSuperview" ref="1050324210"/>
 																	<reference key="NSWindow"/>
+																	<reference key="NSNextKeyView" ref="245516471"/>
 																	<int key="NSViewLayerContentsRedrawPolicy">2</int>
 																	<int key="NSsFlags">1</int>
 																	<reference key="NSTarget" ref="1050324210"/>
@@ -677,7 +684,7 @@
 															<string key="NSFrameSize">{349, 163}</string>
 															<reference key="NSSuperview" ref="951420370"/>
 															<reference key="NSWindow"/>
-															<reference key="NSNextKeyView" ref="245516471"/>
+															<reference key="NSNextKeyView" ref="643938308"/>
 															<int key="NSViewLayerContentsRedrawPolicy">2</int>
 															<int key="NSsFlags">18</int>
 															<reference key="NSVScroller" ref="621998011"/>
@@ -688,6 +695,7 @@
 													<string key="NSFrame">{{0, 159}, {349, 162}}</string>
 													<reference key="NSSuperview" ref="280724209"/>
 													<reference key="NSWindow"/>
+													<reference key="NSNextKeyView" ref="1050324210"/>
 													<int key="NSViewLayerContentsRedrawPolicy">2</int>
 													<string key="NSClassName">NSView</string>
 												</object>
@@ -695,6 +703,7 @@
 											<string key="NSFrame">{{18, 14}, {349, 321}}</string>
 											<reference key="NSSuperview" ref="57898645"/>
 											<reference key="NSWindow"/>
+											<reference key="NSNextKeyView" ref="135288337"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<int key="NSDividerStyle">3</int>
 										</object>
@@ -936,39 +945,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label">content: self.methods</string>
-						<reference key="source" ref="866539046"/>
-						<reference key="destination" ref="512844837"/>
-						<object class="NSNibBindingConnector" key="connector" id="638631202">
-							<reference key="NSSource" ref="866539046"/>
-							<reference key="NSDestination" ref="512844837"/>
-							<string key="NSLabel">content: self.methods</string>
-							<string key="NSBinding">content</string>
-							<string key="NSKeyPath">self.methods</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">100177</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">selectedIndex: self.selectedMethod</string>
-						<reference key="source" ref="866539046"/>
-						<reference key="destination" ref="512844837"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="866539046"/>
-							<reference key="NSDestination" ref="512844837"/>
-							<string key="NSLabel">selectedIndex: self.selectedMethod</string>
-							<string key="NSBinding">selectedIndex</string>
-							<string key="NSKeyPath">self.selectedMethod</string>
-							<reference key="NSPreviousConnector" ref="638631202"/>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">100178</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
 						<string key="label">contentArray: self.historyItems</string>
 						<reference key="source" ref="266087725"/>
 						<reference key="destination" ref="512844837"/>
@@ -1034,22 +1010,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: self.selectedHistoryItem.title</string>
-						<reference key="source" ref="283321342"/>
-						<reference key="destination" ref="512844837"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="283321342"/>
-							<reference key="NSDestination" ref="512844837"/>
-							<string key="NSLabel">value: self.selectedHistoryItem.title</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">self.selectedHistoryItem.title</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">100226</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
 						<string key="label">enabled: self.selectedHistoryItem</string>
 						<reference key="source" ref="881346967"/>
 						<reference key="destination" ref="512844837"/>
@@ -1070,19 +1030,68 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: self.selectedHistoryItem.title</string>
+						<string key="label">value: self.selectedHistoryItem.host</string>
+						<reference key="source" ref="283321342"/>
+						<reference key="destination" ref="512844837"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="283321342"/>
+							<reference key="NSDestination" ref="512844837"/>
+							<string key="NSLabel">value: self.selectedHistoryItem.host</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">self.selectedHistoryItem.host</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">100268</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: self.selectedHistoryItem.path</string>
 						<reference key="source" ref="752578394"/>
 						<reference key="destination" ref="512844837"/>
 						<object class="NSNibBindingConnector" key="connector">
 							<reference key="NSSource" ref="752578394"/>
 							<reference key="NSDestination" ref="512844837"/>
-							<string key="NSLabel">value: self.selectedHistoryItem.title</string>
+							<string key="NSLabel">value: self.selectedHistoryItem.path</string>
 							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">self.selectedHistoryItem.title</string>
+							<string key="NSKeyPath">self.selectedHistoryItem.path</string>
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
 					</object>
-					<int key="connectionID">100235</int>
+					<int key="connectionID">100269</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">contentValues: self.httpMethods</string>
+						<reference key="source" ref="866539046"/>
+						<reference key="destination" ref="512844837"/>
+						<object class="NSNibBindingConnector" key="connector" id="515797944">
+							<reference key="NSSource" ref="866539046"/>
+							<reference key="NSDestination" ref="512844837"/>
+							<string key="NSLabel">contentValues: self.httpMethods</string>
+							<string key="NSBinding">contentValues</string>
+							<string key="NSKeyPath">self.httpMethods</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">100271</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">selectedIndex: self.selectedMethodIndex</string>
+						<reference key="source" ref="866539046"/>
+						<reference key="destination" ref="512844837"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="866539046"/>
+							<reference key="NSDestination" ref="512844837"/>
+							<string key="NSLabel">selectedIndex: self.selectedMethodIndex</string>
+							<string key="NSBinding">selectedIndex</string>
+							<string key="NSKeyPath">self.selectedMethodIndex</string>
+							<reference key="NSPreviousConnector" ref="515797944"/>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">100272</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -1260,12 +1269,12 @@
 							<reference ref="395311546"/>
 							<reference ref="752578394"/>
 							<reference ref="1007719986"/>
-							<reference ref="866539046"/>
 							<reference ref="341107213"/>
 							<reference ref="687178987"/>
 							<reference ref="179331402"/>
 							<reference ref="280724209"/>
 							<reference ref="283321342"/>
+							<reference ref="866539046"/>
 						</array>
 						<reference key="parent" ref="568628114"/>
 					</object>
@@ -1587,7 +1596,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">100246</int>
+			<int key="maxID">100272</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">

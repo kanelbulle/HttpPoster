@@ -3,20 +3,30 @@
 //  HttpPoster
 //
 //  Created by Emil Arfvidsson on 2/5/11.
-//  Copyright 2011 Royal Institute of Technology. All rights reserved.
+//  Copyright 2011 Emil Arfvidsson. All rights reserved.
 //
 
 #import "HttpDocument.h"
 
 @implementation HttpDocument
 
+#define HTTP_METHODS [NSArray arrayWithObjects:@"GET", @"POST", @"PUT", @"DELETE", @"HEAD", nil]
+
+#define TITLE_KEY @"title"
+#define HOST_KEY @"host"
+#define PATH_KEY @"path"
+#define METHOD_KEY @"method_index"
+#define CONTENT_TYPE_KEY @"content_type"
+#define BODY_KEY @"body"
+#define RESPONSE_BODY_KEY @"response_body"
+
 @synthesize addressField, bodyField, respField;
 
 @synthesize historyItems;
 @synthesize selectedHistoryItem;
 
-@synthesize methods;
-@synthesize selectedMethod;
+@synthesize httpMethods;
+@synthesize selectedMethodIndex;
 
 - (id)init
 {
@@ -24,25 +34,30 @@
     if (self) {
 		self.historyItems = [NSMutableArray arrayWithCapacity:5];
 		
-		NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:@"hello", @"title", nil];
+		self.httpMethods = HTTP_METHODS;
+		self.selectedMethodIndex = 0;
+		
+		NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:@"http://www.apple.com/", @"title", @"http://www.apple.com/", @"host", @"/index.html", @"path", [NSNumber numberWithUnsignedInteger:2], @"methodIndex", nil];
 		[self.historyItems addObject:dict];
 		dict = [NSDictionary dictionaryWithObjectsAndKeys:@"hi there", @"title", nil];
 		[self.historyItems addObject:dict];
 		
 		self.selectedHistoryItemIndex = 0;
 
-		self.methods = [NSArray arrayWithObjects:@"GET", @"POST", @"PUT", @"DELETE", @"HEAD", nil];
-		self.selectedMethod = 2;
     }
     return self;
 }
 
-- (void) setSelectedHistoryItemIndex:(NSInteger)index {
+- (void) setSelectedHistoryItemIndex:(NSUInteger)index {
 	self.selectedHistoryItem = [self.historyItems objectAtIndex:index];
+	
+	NSNumber *httpIndex = [selectedHistoryItem objectForKey:@"methodIndex"];
+	self.selectedMethodIndex = [httpIndex unsignedIntegerValue];
+	
 	selectedHistoryItemIndex = index;
 }
 
-- (NSInteger) selectedHistoryItemIndex {
+- (NSUInteger) selectedHistoryItemIndex {
 	return selectedHistoryItemIndex;
 }
 
