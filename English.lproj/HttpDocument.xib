@@ -54,6 +54,15 @@
 				<bool key="NSFilterRestrictsInsertion">YES</bool>
 				<bool key="NSClearsFilterPredicateOnInsertion">YES</bool>
 			</object>
+			<object class="NSArrayController" id="909948333">
+				<bool key="NSEditable">YES</bool>
+				<object class="_NSManagedProxy" key="_NSManagedProxy"/>
+				<bool key="NSAvoidsEmptySelection">YES</bool>
+				<bool key="NSPreservesSelection">YES</bool>
+				<bool key="NSSelectsInsertedObjects">YES</bool>
+				<bool key="NSFilterRestrictsInsertion">YES</bool>
+				<bool key="NSClearsFilterPredicateOnInsertion">YES</bool>
+			</object>
 			<object class="NSDictionaryController" id="217670278">
 				<bool key="NSEditable">YES</bool>
 				<bool key="NSAvoidsEmptySelection">YES</bool>
@@ -937,55 +946,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label">contentArray: self.historyItems</string>
-						<reference key="source" ref="266087725"/>
-						<reference key="destination" ref="512844837"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="266087725"/>
-							<reference key="NSDestination" ref="512844837"/>
-							<string key="NSLabel">contentArray: self.historyItems</string>
-							<string key="NSBinding">contentArray</string>
-							<string key="NSKeyPath">self.historyItems</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">100186</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">contentValues: arrangedObjects.title</string>
-						<reference key="source" ref="881346967"/>
-						<reference key="destination" ref="266087725"/>
-						<object class="NSNibBindingConnector" key="connector" id="605428061">
-							<reference key="NSSource" ref="881346967"/>
-							<reference key="NSDestination" ref="266087725"/>
-							<string key="NSLabel">contentValues: arrangedObjects.title</string>
-							<string key="NSBinding">contentValues</string>
-							<string key="NSKeyPath">arrangedObjects.title</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">100191</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">selectedIndex: self.selectedHistoryItemIndex</string>
-						<reference key="source" ref="881346967"/>
-						<reference key="destination" ref="512844837"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="881346967"/>
-							<reference key="NSDestination" ref="512844837"/>
-							<string key="NSLabel">selectedIndex: self.selectedHistoryItemIndex</string>
-							<string key="NSBinding">selectedIndex</string>
-							<string key="NSKeyPath">self.selectedHistoryItemIndex</string>
-							<reference key="NSPreviousConnector" ref="605428061"/>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">100215</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
 						<string key="label">contentDictionary: self.selectedHistoryItem</string>
 						<reference key="source" ref="217670278"/>
 						<reference key="destination" ref="512844837"/>
@@ -1053,39 +1013,6 @@
 					<int key="connectionID">100269</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">contentValues: self.httpMethods</string>
-						<reference key="source" ref="866539046"/>
-						<reference key="destination" ref="512844837"/>
-						<object class="NSNibBindingConnector" key="connector" id="515797944">
-							<reference key="NSSource" ref="866539046"/>
-							<reference key="NSDestination" ref="512844837"/>
-							<string key="NSLabel">contentValues: self.httpMethods</string>
-							<string key="NSBinding">contentValues</string>
-							<string key="NSKeyPath">self.httpMethods</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">100271</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">selectedIndex: self.selectedMethodIndex</string>
-						<reference key="source" ref="866539046"/>
-						<reference key="destination" ref="512844837"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="866539046"/>
-							<reference key="NSDestination" ref="512844837"/>
-							<string key="NSLabel">selectedIndex: self.selectedMethodIndex</string>
-							<string key="NSBinding">selectedIndex</string>
-							<string key="NSKeyPath">self.selectedMethodIndex</string>
-							<reference key="NSPreviousConnector" ref="515797944"/>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">100272</int>
-				</object>
-				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">hostField</string>
 						<reference key="source" ref="512844837"/>
@@ -1125,6 +1052,190 @@
 					</object>
 					<int key="connectionID">100278</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: self.selectedHistoryItem.content_type</string>
+						<reference key="source" ref="179331402"/>
+						<reference key="destination" ref="512844837"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="179331402"/>
+							<reference key="NSDestination" ref="512844837"/>
+							<string key="NSLabel">value: self.selectedHistoryItem.content_type</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">self.selectedHistoryItem.content_type</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">100281</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">attributedString: self.selectedHistoryItem.body</string>
+						<reference key="source" ref="869953565"/>
+						<reference key="destination" ref="512844837"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="869953565"/>
+							<reference key="NSDestination" ref="512844837"/>
+							<string key="NSLabel">attributedString: self.selectedHistoryItem.body</string>
+							<string key="NSBinding">attributedString</string>
+							<string key="NSKeyPath">self.selectedHistoryItem.body</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">100284</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">content: arrangedObjects</string>
+						<reference key="source" ref="881346967"/>
+						<reference key="destination" ref="266087725"/>
+						<object class="NSNibBindingConnector" key="connector" id="156978514">
+							<reference key="NSSource" ref="881346967"/>
+							<reference key="NSDestination" ref="266087725"/>
+							<string key="NSLabel">content: arrangedObjects</string>
+							<string key="NSBinding">content</string>
+							<string key="NSKeyPath">arrangedObjects</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">100285</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">contentValues: arrangedObjects.title</string>
+						<reference key="source" ref="881346967"/>
+						<reference key="destination" ref="266087725"/>
+						<object class="NSNibBindingConnector" key="connector" id="237731271">
+							<reference key="NSSource" ref="881346967"/>
+							<reference key="NSDestination" ref="266087725"/>
+							<string key="NSLabel">contentValues: arrangedObjects.title</string>
+							<string key="NSBinding">contentValues</string>
+							<string key="NSKeyPath">arrangedObjects.title</string>
+							<reference key="NSPreviousConnector" ref="156978514"/>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">100286</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">content</string>
+						<reference key="source" ref="266087725"/>
+						<reference key="destination" ref="512844837"/>
+					</object>
+					<int key="connectionID">100288</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">content: self.httpMethods</string>
+						<reference key="source" ref="866539046"/>
+						<reference key="destination" ref="512844837"/>
+						<object class="NSNibBindingConnector" key="connector" id="42777706">
+							<reference key="NSSource" ref="866539046"/>
+							<reference key="NSDestination" ref="512844837"/>
+							<string key="NSLabel">content: self.httpMethods</string>
+							<string key="NSBinding">content</string>
+							<string key="NSKeyPath">self.httpMethods</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">100326</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">contentValues: self.httpMethods</string>
+						<reference key="source" ref="866539046"/>
+						<reference key="destination" ref="512844837"/>
+						<object class="NSNibBindingConnector" key="connector" id="662079700">
+							<reference key="NSSource" ref="866539046"/>
+							<reference key="NSDestination" ref="512844837"/>
+							<string key="NSLabel">contentValues: self.httpMethods</string>
+							<string key="NSBinding">contentValues</string>
+							<string key="NSKeyPath">self.httpMethods</string>
+							<reference key="NSPreviousConnector" ref="42777706"/>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">100327</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">selectedIndex: self.selectedMethodIndex</string>
+						<reference key="source" ref="866539046"/>
+						<reference key="destination" ref="512844837"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="866539046"/>
+							<reference key="NSDestination" ref="512844837"/>
+							<string key="NSLabel">selectedIndex: self.selectedMethodIndex</string>
+							<string key="NSBinding">selectedIndex</string>
+							<string key="NSKeyPath">self.selectedMethodIndex</string>
+							<reference key="NSPreviousConnector" ref="662079700"/>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">100330</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">selectedIndex: selectionIndex</string>
+						<reference key="source" ref="881346967"/>
+						<reference key="destination" ref="266087725"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="881346967"/>
+							<reference key="NSDestination" ref="266087725"/>
+							<string key="NSLabel">selectedIndex: selectionIndex</string>
+							<string key="NSBinding">selectedIndex</string>
+							<string key="NSKeyPath">selectionIndex</string>
+							<reference key="NSPreviousConnector" ref="237731271"/>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">100333</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">contentArray: self.historyItems</string>
+						<reference key="source" ref="266087725"/>
+						<reference key="destination" ref="512844837"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="266087725"/>
+							<reference key="NSDestination" ref="512844837"/>
+							<string key="NSLabel">contentArray: self.historyItems</string>
+							<string key="NSBinding">contentArray</string>
+							<string key="NSKeyPath">self.historyItems</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSHandlesContentAsCompoundValue</string>
+								<boolean value="YES" key="NS.object.0"/>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">100334</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">historyController</string>
+						<reference key="source" ref="512844837"/>
+						<reference key="destination" ref="266087725"/>
+					</object>
+					<int key="connectionID">100335</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">contentArray: self.httpMethods</string>
+						<reference key="source" ref="909948333"/>
+						<reference key="destination" ref="512844837"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="909948333"/>
+							<reference key="NSDestination" ref="512844837"/>
+							<string key="NSLabel">contentArray: self.httpMethods</string>
+							<string key="NSBinding">contentArray</string>
+							<string key="NSKeyPath">self.httpMethods</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">100338</int>
+				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<array key="orderedObjects">
@@ -1159,9 +1270,9 @@
 						<int key="objectID">6</int>
 						<reference key="object" ref="568628114"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="881346967"/>
 							<reference ref="536902847"/>
 							<reference ref="522591716"/>
+							<reference ref="881346967"/>
 						</array>
 						<reference key="parent" ref="275939982"/>
 					</object>
@@ -1542,6 +1653,12 @@
 						<reference key="object" ref="350831891"/>
 						<reference key="parent" ref="1050324210"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">100336</int>
+						<reference key="object" ref="909948333"/>
+						<reference key="parent" ref="0"/>
+						<string key="objectName">Methods Array Controller</string>
+					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -1612,6 +1729,7 @@
 				<string key="100244.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="100245.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="100246.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="100336.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="5.IBEditorWindowLastContentRect">{{503, 462}, {291, 497}}</string>
 				<string key="5.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="5.IBWindowTemplateEditedContentRect">{{503, 462}, {291, 497}}</string>
@@ -1628,7 +1746,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">100278</int>
+			<int key="maxID">100338</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -1649,6 +1767,7 @@
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="bodyField">NSTextView</string>
 						<string key="contentTypeField">NSTextField</string>
+						<string key="historyController">NSArrayController</string>
 						<string key="hostField">NSTextField</string>
 						<string key="pathField">NSTextField</string>
 						<string key="respField">NSTextView</string>
@@ -1661,6 +1780,10 @@
 						<object class="IBToOneOutletInfo" key="contentTypeField">
 							<string key="name">contentTypeField</string>
 							<string key="candidateClassName">NSTextField</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="historyController">
+							<string key="name">historyController</string>
+							<string key="candidateClassName">NSArrayController</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="hostField">
 							<string key="name">hostField</string>

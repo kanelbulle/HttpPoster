@@ -10,6 +10,10 @@
 
 @interface HttpDocument : NSDocument
 {
+	NSMutableData *fetchedData;
+	
+	IBOutlet NSArrayController *historyController;
+	
 	NSTextField *hostField;
 	NSTextField *pathField;
 	NSTextField *contentTypeField;
@@ -20,7 +24,7 @@
 	NSDictionary *selectedHistoryItem;
 	NSUInteger selectedHistoryItemIndex;
 	
-	NSArray *httpMethods;
+	NSMutableArray *httpMethods;
 	NSUInteger selectedMethodIndex;
 }
 
@@ -34,9 +38,12 @@
 @property (nonatomic, assign) NSUInteger selectedHistoryItemIndex;
 @property (nonatomic, assign) NSDictionary *selectedHistoryItem;
 
-@property (nonatomic, retain) NSArray *httpMethods;
+@property (nonatomic, retain) NSMutableArray *httpMethods;
 @property (nonatomic, assign) NSUInteger selectedMethodIndex;
 
 - (IBAction) sendButtonPushed:(id)sender;
+
+- (NSDictionary *) saveForm;
+- (void) httpCallWithForm:(NSDictionary *)form;
 
 @end
